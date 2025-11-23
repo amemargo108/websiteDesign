@@ -24,3 +24,12 @@ hr, .horizontalBar {
   width: 100%;
   padding-left: 0 !important; /* remove Bootstrap's UL indentation */
 }
+
+.footer-text {
+    font-family:Arial, Helvetica, sans-serif !important;
+    color: white !important;
+}
+
+.social-style a {
+    font-size: 1.25em; color: white !important;
+}
