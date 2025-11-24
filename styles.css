@@ -33,3 +33,13 @@ hr, .horizontalBar {
 .social-style a {
     font-size: 1.25em; color: white !important;
 }
+
+.image-banner img {
+    height: 30vw;
+    width: 100%;
+    object-fit: contain;
+    background-color: #1b1b1b;}
+
+.gallery-strip {
+  background-color: #1b1b1b;
+}
