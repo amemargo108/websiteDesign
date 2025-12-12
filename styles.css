@@ -43,3 +43,33 @@ hr, .horizontalBar {
 .gallery-strip {
   background-color: #1b1b1b;
 }
+
+.photo-tile {
+  position: relative;
+  overflow: hidden;
+  border-radius: .5rem; 
+}
+
+.photo-tile img {
+  transition: transform 0.4s ease;
+  display: block;  
+}
+
+.photo-tile:hover img {
+  transform: scale(1.08);
+}
+
+.tile-label {
+  position: absolute;
+  bottom: 10px;      /* space from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.55); /* dark translucent bar */
+  color: white;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  pointer-events: none; /* prevents blocking the image link */
+  white-space: nowrap;
+}
