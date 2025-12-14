@@ -73,3 +73,7 @@ hr, .horizontalBar {
   pointer-events: none; /* prevents blocking the image link */
   white-space: nowrap;
 }
+
+.photo-banner {
+    
+}
