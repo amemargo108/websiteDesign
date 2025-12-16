@@ -22,7 +22,7 @@ hr, .horizontalBar {
   flex-direction: row !important;
   justify-content: space-evenly !important;
   width: 100%;
-  padding-left: 0 !important; /* remove Bootstrap's UL indentation */
+  padding-left: 0 !important; 
 }
 
 .footer-text {
@@ -61,7 +61,7 @@ hr, .horizontalBar {
 
 .tile-label {
   position: absolute;
-  bottom: 10px;      /* space from the bottom */
+  bottom: 10px;      
   left: 50%;
   transform: translateX(-50%);
   background: rgba(0, 0, 0, 0.55); /* dark translucent bar */
@@ -72,8 +72,4 @@ hr, .horizontalBar {
   font-weight: 500;
   pointer-events: none; /* prevents blocking the image link */
   white-space: nowrap;
-}
-
-.photo-banner {
-    
 }
