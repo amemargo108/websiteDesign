@@ -1,5 +1,5 @@
 h1, .headline {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Texturina, Georgia, 'Times New Roman', Times, serif;
 }
 
 hr, .horizontalBar {
@@ -68,8 +68,22 @@ hr, .horizontalBar {
   color: white;
   padding: 6px 14px;
   border-radius: 20px;
-  font-size: 0.9rem;
+  font-size: 1.5rem;
+  
   font-weight: 500;
   pointer-events: none; /* prevents blocking the image link */
   white-space: nowrap;
+}
+
+.title-text {
+  font-family: Texturina;
+}
+
+p {
+  font-family: Poppins !important;
+}
+
+.nav-item {
+  font-family: Poppins !important;
+  font-weight: bold;
 }
