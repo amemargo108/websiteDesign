@@ -264,5 +264,26 @@
     "mediumsUsed": "Acrylic and marker on canvas.",
     "yearCreated": "2025",
     "artDimensions": "16\"x20\""
+  },
+    "shot-in-the-dark": {
+    "title": "A Shot in the Dark",
+    "image": "images/shotInTheDark2026.jpg",
+    "mediumsUsed": "Acrylic and oil on canvas.",
+    "yearCreated": "2026",
+    "artDimensions": "16\"x20\""
+  },
+    "with-morning": {
+    "title": "With Morning Comes Clarity",
+    "image": "images/withMorningComesClarity2025.gif",
+    "mediumsUsed": "Acrylic on canvas.",
+    "yearCreated": "2025",
+    "artDimensions": "12\"x12\""
+  },
+    "shrimp-money": {
+    "title": "Shrimp Money",
+    "image": "images/shrimpMoney2026.jpg",
+    "mediumsUsed": "Oil on wood panel",
+    "yearCreated": "2026",
+    "artDimensions": "6\"x8\""
   }
 }
