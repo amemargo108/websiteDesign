@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const params = new URLSearchParams(window.location.search);
   const artId = params.get("id");
 
-  fetch("data/art-details.json")
+  fetch("/data/art-details.json")
     .then(res => res.json())
     .then(data => {
       const art = data[artId];

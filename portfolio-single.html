@@ -3,17 +3,19 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Stylesheets -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="styles.css" rel="stylesheet" />
   <!-- fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Texturina">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-  
   <!-- icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <title>Photography</title>
 </head>
-<!--- Hero --->
+
+
+<!--- Header --->
 <header class="text-center bg-dark text-white py-5">
   <div class="container">
     <h1 class="headline display-4 fw-bold">Ame Margo Houston</h1>
@@ -73,31 +75,55 @@
     </nav>
 
 <!---Content --> 
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-md-7">
-            <img id="art-image" src="" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
 
-      <div class="container">
-        <div class="row mb-5 justify-content-center">
-          <div class="col-md-6" id="art-description">
-            <h2 id="titleBody" class="text-black text-center"></h2><br>
-           </div>
-          </div>
-        </div>
-      </div>
+<section class="container py-5 art-detail">
 
-      <div class="container justify-content-center">
-        <hr class="horizontalBar">
-        <p><strong class="font-weight-bold text-black">Art details: </Strong><span id="mediumsUsed"></span></p>
-        <p><strong class="font-weight-bold text-black">Year created:</strong> <span id="yearCreated"></span></p>
-        <p><strong class="font-weight-bold text-black">Dimensions:</strong> <span id="artDimensions"></span></p>
-        <hr class="horizontalBar">
-        <div class="col-md-auto portfolio-button"><a href="portfolio.html" class="btn btn-block border p-3">Back to Portfolio</a></div>
-      </div>
+  <!-- Title -->
+  <div class="text-center mb-5">
+    <h1 class="title-text art-page-title" id="titleBody"></h1>
+  </div>
+
+  <!-- Image -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-8 col-md-10">
+      <img id="art-image" src="" alt="" class="img-fluid rounded shadow-sm">
+    </div>
+  </div>
+
+  <!-- Description -->
+  <div class="row justify-content-center mb-4">
+    <div class="col-lg-7 col-md-9 text-center">
+      <h2 class="art-title mb-3"></h2>
+      <p id="art-description" class="art-description"></p>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="row justify-content-center">
+    <div class="col-lg-6 col-md-8">
+      <hr class="horizontalBar my-4">
+    </div>
+  </div>
+
+  <!-- Details -->
+  <div class="row justify-content-center mb-5">
+    <div class="col-lg-6 col-md-8 text-center art-meta">
+      <p><strong>Art details:</strong> <span id="mediumsUsed"></span></p>
+      <p><strong>Year created:</strong> <span id="yearCreated"></span></p>
+      <p><strong>Dimensions:</strong> <span id="artDimensions"></span></p>
+    </div>
+  </div>
+
+  <!-- Back Button -->
+  <div class="text-center">
+    <a href="portfolio.html" class="btn btn-outline-dark px-4 py-2">
+      Back to Portfolio
+    </a>
+  </div>
+
+</section>
+  </main>
+  
 
     
 

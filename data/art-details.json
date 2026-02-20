@@ -264,5 +264,12 @@
     "mediumsUsed": "Acrylic and marker on canvas.",
     "yearCreated": "2025",
     "artDimensions": "16\"x20\""
-  }
+  },
+    "shot-in-the-dark": {
+    "title": "Shot in the Dark",
+    "image": "images/shotInTheDark.gif",
+    "mediumsUsed": "Acrylic and oil on canvas",
+    "yearCreated": "2025",
+    "artDimensions": "16\"x20\""
+    }
 }

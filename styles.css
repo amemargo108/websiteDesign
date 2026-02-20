@@ -7,7 +7,6 @@
 
 html, body {
   height: 100%;
-  background-color: #f5f5f5
 }
 
 .page-wrapper {
@@ -36,10 +35,6 @@ h1, .headline {
     background-color: #1b1b1b;
 }
 
-.gallery-strip {
-  background-color: #1b1b1b;
-}
-
 .photo-tile {
   position: relative;
   overflow: hidden;
@@ -60,13 +55,13 @@ h1, .headline {
   bottom: 10px;      
   left: 50%;
   transform: translateX(-50%);
-  background: rgba(0, 0, 0, 0.55); /* dark translucent bar */
+  background: rgba(0, 0, 0, 0.55); 
   color: white;
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 1.5rem;
   font-weight: 500;
-  pointer-events: none; /* prevents blocking the image link */
+  pointer-events: none;
   white-space: nowrap;
 }
 
@@ -111,4 +106,100 @@ p {
   font-family: Poppins, sans-serif;
   font-size: 0.85rem;
   opacity: 0.6;
+}
+
+
+.art-detail {
+  max-width: 1100px;
+}
+
+.art-page-title {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.art-description {
+  font-family: Poppins, sans-serif;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+.art-meta p {
+  font-family: Poppins, sans-serif;
+  font-size: 0.95rem;
+  margin-bottom: 0.5rem;
+}
+
+.horizontalBar {
+  border-top: 1px solid #ccc;
+}
+
+.btn-outline-dark {
+  border-radius: 50px;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #111;
+  color: white;
+}
+
+.featured-work {
+  background-color: #f5f5f5;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.featured-title {
+  font-size: 2.2rem;
+  letter-spacing: 1px;
+}
+
+.featured-img {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.featured-img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.dark-home {
+  background-color: #0f0f0f;
+  color: #f5f5f5;
+}
+
+.home-dark .featured-work {
+  background-color: #0f0f0f;
+}
+
+.hero {
+  position: relative;
+  height: 100vh; 
+  background: url('images/ChattFilm02.jpg') no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.45); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero .headline {
+  font-family: Texturina, serif;
+  font-size: 4rem;
+  letter-spacing: 1px;
+}
+
+.section-head {
+  padding-bottom: 9px;
 }
