@@ -1,44 +1,40 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  background-color: #f5f5f5
+}
+
+.page-wrapper {
+  min-height: 100vh;  /* Full viewport height */
+  display: flex;
+  flex-direction: column;  /* Stack content vertically */
+}
+
+.content {
+  flex: 1;          /* Makes sure content takes available space */
+  width: 85vw;      /* Content width: 85% of the viewport width */
+  margin: 0 auto;   /* Centers content horizontally */
+  padding: 2rem 0;
+}
+
 h1, .headline {
     font-family: Texturina, Georgia, 'Times New Roman', Times, serif;
-}
-
-hr, .horizontalBar {
-    width: 80vw;
-    height: 4px;
-    background-color: black;
-    margin-left: auto;
-    margin-right:auto;
-}
-
-.navbar-center {
-    margin-left: auto;
-    margin-right: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
-}
-
-.navspace {
-  display: flex !important;
-  flex-direction: row !important;
-  justify-content: space-evenly !important;
-  width: 100%;
-  padding-left: 0 !important; 
-}
-
-.footer-text {
-    font-family:Arial, Helvetica, sans-serif !important;
-    color: white !important;
-}
-
-.social-style a {
-    font-size: 1.25em; color: white !important;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
 }
 
 .image-banner img {
     height: 30vw;
     width: 100%;
     object-fit: contain;
-    background-color: #1b1b1b;}
+    background-color: #1b1b1b;
+}
 
 .gallery-strip {
   background-color: #1b1b1b;
@@ -69,7 +65,6 @@ hr, .horizontalBar {
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 1.5rem;
-  
   font-weight: 500;
   pointer-events: none; /* prevents blocking the image link */
   white-space: nowrap;
@@ -86,4 +81,34 @@ p {
 .nav-item {
   font-family: Poppins !important;
   font-weight: bold;
+}
+
+@media (min-width: 992px) {
+  .navbar .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+  }
+}
+
+.site-footer {
+  background-color: #111;
+  color: white;
+}
+
+.footer-name {
+  font-family: Texturina, serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.footer-socials a {
+  color: white;
+  font-size: 1.4rem;
+  margin: 0 12px;
+}
+
+.footer-copy {
+  font-family: Poppins, sans-serif;
+  font-size: 0.85rem;
+  opacity: 0.6;
 }

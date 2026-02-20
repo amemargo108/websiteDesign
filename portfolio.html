@@ -3,13 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Stylesheets -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="styles.css" rel="stylesheet" />
+  <!-- fonts -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Texturina">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-<title>Portfolio</title>
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  <title>Portfolio</title>
 </head>
-<!--- Hero --->
+
+
+<!--- Header --->
 <header class="text-center bg-dark text-white py-5">
   <div class="container">
     <h1 class="headline display-4 fw-bold">Ame Margo Houston</h1>
@@ -17,72 +22,110 @@
 </header>
 
 <body>
-<nav class="navbar navbar-expand-lg custom-nav">
-  <div class="container">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+  <div class="page-wrapper">
+    <main class="content">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+        <div class="container-fluid">
 
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-center navbar-nav ms-auto nav navspace">
-        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="photography.html">Photography</a></li>
-        <li class="nav-item"><a class="nav-link" href="bio.html">Bio</a></li>
-        <li class="nav-item"><a href="mailto:junedogart@gmail.com" class="nav-link">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+          <!-- Mobile dropdown -->
+          <button class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#mainNavbar"
+            aria-controls="mainNavbar" 
+            aria-expanded="false" 
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
+          <!-- Collapsible Menu -->
+          <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle"
+                  href="photography.html"
+                  id="photoDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Photography
+                </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="people.html">People</a></li>
+                <li><a class="dropdown-item" href="places.html">Places</a></li>
+                <li><a class="dropdown-item" href="things.html">Things</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bio.html">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="mailto:junedogart@gmail.com">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<!-- Featured Work -->
-<section class="container py-5">
-  <h2 class="mb-4 text-center">Featured Artworks</h2>
-  <div class="row g-4">
-    <div class="col-6 col-md-4">
-      <img class="img-fluid rounded shadow" src="img/art1.jpg">
-    </div>
-    <div class="col-6 col-md-4">
-      <img class="img-fluid rounded shadow" src="img/art2.jpg">
-    </div>
-    <div class="col-6 col-md-4">
-      <img class="img-fluid rounded shadow" src="img/art3.jpg">
-    </div>
-  </div>
-</section>
 
 <section class="container py-5">
   <h1 class="mb-4 text-center">Portfolio</h1>
 
-  <div class="row g-4">
-    <!-- Artwork card -->
-    <div class="col-6 col-md-4 col-lg-3">
-      <div class="card shadow-sm">
-        <img src="img/art1.jpg" class="card-img-top" alt="">
-        <div class="card-body">
-          <h5 class="card-title">Title Here</h5>
-          <p class="card-text small text-muted">Oil on canvas, 2024</p>
-          <a href="art-details.html?id=1" class="btn btn-sm btn-dark">View</a>
-        </div>
+
+  <!--- Artwork-->
+  <div class="row g-4 my-5">
+    <div class="col-12 col-md-4">
+      <div class="photo-tile">
+        <img src="img/art1.jpg" class="image-fluid" alt="">
       </div>
     </div>
-
-    <!-- repeat for each artwork... -->
+    <div class="col-12 col-md-4">
+      <div class="photo-tile">
+        <img src="img/art1.jpg" class="image-fluid" alt="">
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="photo-tile">
+        <img src="img/art1.jpg" class="image-fluid" alt="">
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="photo-tile">
+        <img src="img/art1.jpg" class="image-fluid" alt="">
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="photo-tile">
+        <img src="img/art1.jpg" class="image-fluid" alt="">
+      </div>
+    </div>
+    <div class="col-12 col-md-4">
+      <div class="photo-tile">
+        <img src="img/art1.jpg" class="image-fluid" alt="">
+      </div>
+    </div>
   </div>
 </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container text-center py-5">
+    <h4 class="footer-name mb-3">Ame Margo Houston</h4>
+    <div class="footer-socials mb-3">
+        <a href="mailto:junedogart@gmail.com"><span class="fa-solid fa-envelope footer-social"></span></a>
+        <a href="https://www.instagram.com/junedogart/"><span class="fab fa-instagram footer-social"></span></a>
+    </div>
+    <p class="footer-copy mb-0"> © 2025 Ame Margo Houston · All Rights Reserved </p>
+  </div>
+</footer>
 
 </body>
-
-<footer class="bg-dark text-center py-4 mt-5 border-top">
-  <p class="mb-1 footer-text">© 2025 Ame Houston</p>
-  <p class="small text-muted footer-text">All artwork © Ame Houston · All rights reserved.</p>
-      <div class="text-center social-style">
-      <a href="mailto:junedogart@gmail.com"><span class="fa-solid fa-envelope"></span></a>
-      <a href="https://www.instagram.com/junedogart/"><span class="fa-brands fa-instagram"></span></a>
-      <a href="https://bsky.app/profile/junedogart.bsky.social"><span class="fa-brands fa-bluesky"></span></a>
-    </div>
-</footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
