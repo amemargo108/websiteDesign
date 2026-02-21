@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
       img.src = art.image;
       img.alt = art.title || "Artwork image";
 
-      // Update text fields individually to match your layout
+      
       document.getElementById("mediumsUsed").textContent = art.mediumsUsed || "N/A";
       document.getElementById("yearCreated").textContent = art.yearCreated || "N/A";
       document.getElementById("artDimensions").textContent = art.artDimensions || "N/A";

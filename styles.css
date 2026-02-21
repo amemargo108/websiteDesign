@@ -13,10 +13,13 @@ html, body {
   min-height: 100vh;  
   display: flex;
   flex-direction: column;  
-  margin-top: 100vh;
-  background: #0f0f0f;
   position: relative;
   z-index: 2;
+}
+
+.dark-home .page-wrapper { 
+  margin-top: 100vh;
+  background: #0f0f0f;
 }
 
 .content {
@@ -37,7 +40,7 @@ h1, .headline {
     width: 100%;
     object-fit: contain;
     background-color: #1b1b1b;
-}
+} 
 
 .photo-tile {
   position: relative;
@@ -92,6 +95,10 @@ p {
 .site-footer {
   background-color: #111;
   color: white;
+}
+
+.header-bg {
+  background-color: #0f0f0f
 }
 
 .footer-name {
@@ -187,6 +194,7 @@ p {
   background: url('images/ChattFilm02.jpg') no-repeat center center;
   background-size: cover;
   z-index: -1;
+}
 
 .hero-overlay {
   position: absolute;
