@@ -6,19 +6,54 @@
     "yearCreated": "2025",
     "artDimensions": "12\"x16\""
     }, 
-"unwanted-flowers": {
-    "title": "Unwanted Flowers",
-    "image": "images/unwantedFlowers2023",
-    "mediumsUsed": "Acrylic, gouache, marker, and spray paint on canvas.",
+  "end-of-the-world": {
+    "title": "At the End Of the World, There's Nowhere Left To Go",
+    "image": "images/atTheEndOfTheWorld.jpg",
+    "mediumsUsed": "Acrylic, ink, marker, colored pencil, oil pastel, and vimyl on wood.",
+    "yearCreated": "2024",
+    "artDimensions": "18\"x18\""
+  },
+  "goodnight-moon": {
+    "title": "Goodnight Moon",
+    "image": "images/goodnightMoon.gif",
+    "mediumsUsed": "Acrylic and marker on canvas.",
+    "yearCreated": "2024",
+    "artDimensions": "24\"x30\""
+  },
+  "heart-empty-room": {
+    "title": "Your Heart Is An Empty Room",
+    "image": "images/yourHeartIsAnEmptyRoom.gif",
+    "mediumsUsed": "Acrylic, gouache, and colored pencil on canvas.",
     "yearCreated": "2023",
-    "artDimensions": "30\"x40\""
-    },
+    "artDimensions": "16\"x20\""
+  },
+    "incinerate": {
+    "title": "Incinerate",
+    "image": "images/incinerate2025.jpg",
+    "mediumsUsed": "Acrylic and marker on wood.",
+    "yearCreated": "2024",
+    "artDimensions": "12\"x12\""
+  },
+  "not-from-around-here": {
+    "title": "Not From Around Here",
+    "image": "images/notFromAroundHere2025.jpg",
+    "mediumsUsed": "Acrylic and marker on canvas.",
+    "yearCreated": "2025",
+    "artDimensions": "24\"x30\""
+  },
   "standard-knitting": {
     "title": "Standard Knitting Mill",
     "image": "images/standardKnittingMill2023.jpg",
     "mediumsUsed": "Acrylic and marker on canvas.",
     "yearCreated": "2023",
     "artDimensions": "24\"x24\""
+    },
+"unwanted-flowers": {
+    "title": "Unwanted Flowers",
+    "image": "images/unwantedFlowers2023",
+    "mediumsUsed": "Acrylic, gouache, marker, and spray paint on canvas.",
+    "yearCreated": "2023",
+    "artDimensions": "30\"x40\""
     },
   "your-ghost": {
     "title": "Still Living With Your Ghost",
@@ -27,41 +62,8 @@
     "yearCreated": "2023",
     "artDimensions": "22\"x28\""
     },
-  "goodnight-moon": {
-    "title": "Goodnight Moon",
-    "image": "images/goodnightMoon.gif",
-    "mediumsUsed": "Acrylic and marker on canvas.",
-    "yearCreated": "2024",
-    "artDimensions": "24\"x30\""
-  },
-  "incinerate": {
-    "title": "Incinerate",
-    "image": "images/incinerate2025.jpg",
-    "mediumsUsed": "Acrylic and marker on wood.",
-    "yearCreated": "2024",
-    "artDimensions": "12\"x12\""
-  },
-  "end-of-the-world": {
-    "title": "At the End Of the World, There's Nowhere Left To Go",
-    "image": "images/atTheEndOfTheWorld.jpg",
-    "mediumsUsed": "Acrylic, ink, marker, colored pencil, oil pastel, and vimyl on wood.",
-    "yearCreated": "2024",
-    "artDimensions": "18\"x18\""
-  },
-    "heart-empty-room": {
-    "title": "Your Heart Is An Empty Room",
-    "image": "images/yourHeartIsAnEmptyRoom.gif",
-    "mediumsUsed": "Acrylic, gouache, and colored pencil on canvas.",
-    "yearCreated": "2023",
-    "artDimensions": "16\"x20\""
-  },
-    "not-from-around-here": {
-    "title": "Not From Around Here",
-    "image": "images/notFromAroundHere2025.jpg",
-    "mediumsUsed": "Acrylic and marker on canvas.",
-    "yearCreated": "2025",
-    "artDimensions": "24\"x30\""
-  },
+
+
     "a-better-place": {
     "title": "A Better Place #0",
     "image": "images/aBetterPlace2024.jpg",
