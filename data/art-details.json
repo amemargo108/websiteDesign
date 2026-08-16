@@ -19,6 +19,12 @@
     "yearCreated": "2025",
     "artDimensions": "12\"x16\""
     },
+  "any-other-advice": {
+    "title": "Any Other Advice?",
+    "image": "images/anyOtherAdvice2026.gif",
+    "mediumsUsed": "Oil on wood.",
+    "artDimensions": "8\"x10\""
+  },
   "bad-blood": {
     "title": "Bad Blood",
     "image": "images/badBlood2023.jpg",
@@ -196,7 +202,7 @@
   },
   "not-from-around-here": {
     "title": "Not From Around Here",
-    "image": "images/notFromAroundHere2025.jpg",
+    "image": "images/notFromAroundHere2025.gif",
     "mediumsUsed": "Acrylic and marker on canvas.",
     "yearCreated": "2025",
     "artDimensions": "24\"x30\""
