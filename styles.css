@@ -211,3 +211,34 @@ p {
     margin-left: auto;
     margin-right: auto;
   }
+
+
+  .grid-sizer, .grid-item { 
+    width: 18.5% !important;
+  }
+
+  .gutter-sizer {
+    width: 1.5%;
+  }
+
+  .grid-item {
+    margin-bottom: 1.5%;
+  }
+
+  .grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/* tablet */
+   @media (max-width: 991.98px) {
+     .grid-sizer, .grid-item { width: 31.33% !important; }
+     .gutter-sizer { width: 2%; }
+     .grid-item {margin-bottom: 2%;}
+   }
+/* mobile */   
+   @media (max-width: 575.98px) {
+     .grid-sizer, .grid-item { width: 46% !important; }
+     .gutter-sizer { width: 4%; }
+      .grid-item {margin-bottom: 4%;}
+   }
